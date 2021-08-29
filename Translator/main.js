@@ -14,8 +14,8 @@ function errorHandler(error) {
     alert("Something went wrong, Please try again later sometime");
 }
 function clickHandler() {
-    var input = inputTxt.value;
-    fetch(getTranslationURL(input))
+    //  inputTxt.value;
+    fetch(getTranslationURL(inputTxt.value))
         .then(response => response.json())
         .then(json => {
             var translatedText = json.contents.translated;
