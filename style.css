@@ -8,7 +8,11 @@
 body{
     font-family: var(--font-type);
     /* background-color: var(--primary-color); */
+    margin-top: 0%;
     margin: 0%;
+}
+span{
+    color: var(--primary-color);
 }
 hr{
     margin:2rem 0 ;
@@ -69,12 +73,17 @@ hr{
 }
 .text{
     padding-bottom: 1.4rem;
+    text-align: center;
 }
 .normal-section-heading{
     text-align: center;
 }
+.normal-body{
+    padding: 2rem;
+}
 .oc-head{
     padding-top: 1.4rem;
+    text-align: center;
 }
 .oc-body{
     background-color: var(--secondry-color);
@@ -87,4 +96,13 @@ hr{
 }
 .footer .link{
     color:white;
+}
+.insta{
+    width: 80px;
+    height: 80px;
+    padding-right: 2rem;
+}
+.img-connect{
+    padding: 2rem;
+   text-align: center;
 }
