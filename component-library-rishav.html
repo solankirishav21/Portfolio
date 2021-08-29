@@ -1,44 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>component library</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit alias non commodi. Quos beatae perferendis qui reprehenderit dicta harum repudiandae et odio id quae nisi eligendi accusamus corrupti eos doloremque, possimus veritatis excepturi commodi impedit iure hic soluta ea inventore temporibus? Natus, veritatis officia! <strong>Quaerat repudiandae veniam eius</strong>  nihil saepe.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt reiciendis ipsam sequi, tempore vitae consequuntur sint nobis excepturi quisquam molestiae.</p>
+    <h1 class="components">component library</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit alias non commodi. Quos beatae perferendis qui
+        reprehenderit dicta harum repudiandae et odio id quae nisi eligendi accusamus corrupti eos doloremque, possimus
+        veritatis excepturi commodi impedit iure hic soluta ea inventore temporibus? Natus, veritatis officia!
+        <strong>Quaerat repudiandae veniam eius</strong> nihil saepe.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt reiciendis ipsam sequi, tempore vitae consequuntur
+        sint nobis excepturi quisquam molestiae.</p>
     <hr>
-    <h2>@typography</h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iste facilis voluptatibus eius? Nulla, qui laboriosam, aperiam consectetur harum quis tempora quidem officia alias reprehenderit a ipsam eligendi maxime repellendus?</p>
+    <h2 class="typography">@typography</h2>
+    <p class="typo-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis iste facilis voluptatibus eius? Nulla, qui
+        laboriosam, aperiam consectetur harum quis tempora quidem officia alias reprehenderit a ipsam eligendi maxime
+        repellendus?</p>
     <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</small>
     <hr>
     <h2>@container</h2>
     <h3>Fluid container</h3>
-    <div>This is going to be a fluid container. It will go full width of page. With some margin</div>
+    <div class="fluid-para">This is going to be a fluid container. It will go full width of page. With some margin</div>
     <h3>@center container</h3>
     <div>This is going to be a center container. It will go till a given width and center content. </div>
     <hr>
     <h2>@links</h2>
-    <a href="/">Primary link</a>
-    <a href="/">Secondary Link</a>
+    <a href="/" class="link primary-link">Primary link</a>
+    <a href="/" class="link secondary-link">Secondary Link</a>
     <hr>
     <h2>@list</h2>
     <h3>Unordered list</h3>
     <div>We don't want to show bullets in the unordered list. We'll remove that with CSS.</div>
     <ul>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
+        <l class="unordered-list">one</li>
+        <li class="unordered-list">two</li>
+        <li class="unordered-list">three</li>
     </ul>
     <h3>Inline ordered list</h3>
     <div>Instead of going in a new row, we will create a list which will take columns.</div>
     <ol>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
+        <li class="inline-list">one</li>
+        <li class="inline-list">two</li>
+        <li class="inline-list">three</li>
     </ol>
     <h3>Reverse ordered list</h3>
     <div>Counting of will go reverse for this list .</div>
@@ -47,48 +56,55 @@
         <li>two</li>
         <li>three</li>
     </ol>
-    
+
     <hr>
 
     <h2>@nav</h2>
-    <div>Navigation is used on the top of the page and used to get to different pages</div>
-    <div>thebrandname</div>
-    <ul>
-        <li><a href="/">home</a></li>
-        <li><a href="/">product</a></li>
-        <li><a href="/">about</a></li>
-    
-    </ul>
+    <div class ="nav-content " >Navigation is used on the top of the page and used to get to different pages</div>
+    <div class="navigation">
+    <div class="navigation-head">thebrandname</div>
+    <ul class="align-text">
+        <li class="unordered-list inline-list"><a href="/" class="link">home</a></li>
+        <li class="unordered-list inline-list"><a href="/" class="link">product</a></li>
+        <li class="unordered-list inline-list"><a href="/" class="link">about</a></li>
 
+    </ul>
+    </div>
     <hr>
 
     <h2>@header</h2>
-    <img src="/" alt="">
-    <h1>this is heading h1 inside header</h1>
+    <img src="head photo.svg" alt="head image" class="hero-image">
+    <h1 class="hero-head">this is heading h1 inside header</h1>
 
     <hr>
 
-    <h2>@sectin</h2>
-    <div>A section is used to separate parts of pages. In marketing websites you would have seen a header followed by sections of features, team, pricing, contact info etc.</div>
+    <h2>@section</h2>
+    <div class="section">A section is used to separate parts of pages. In marketing websites you would have seen a header followed by
+        sections of features, team, pricing, contact info etc.</div>
     <h3>@normal Section</h3>
-    <h2>heading inside section</h2>
-    <div>Text defining this section and many more things</div>
-    <a href="/">Primary Link</a>
-    <h3>@off colour section</h3>
+    <h2 class="normal-section-heading">heading inside section</h2>
+    <div class="text">Text defining this section and many more things</div>
+    <a href="/" class="link primary-link">Primary Link</a>
+    <h3 class="oc-head">@off colour section</h3>
+    <div class="oc-body">
     <h2>inside</h2>
-    <div>Text defining this section and many more things</div>
-    <a href="/">Primary Link</a>
-
+    <div class="text">Text defining this section and many more things</div>
+    <a href="/" class="link secondary-link">Secondary 
+        Link</a>
+    </div>
     <hr>
 
     <footer>
         <h2>@footer</h2>
+        <div class="footer">
         <h3>header inside footer</h3>
-        <ul>
-            <li><a href="/">social one</a></li>
-            <li><a href="/">socialtwo</a></li>
-            <li><a href="/">socialthree</a></li>
+        <ul class="align-text">
+            <li class= "unordered-list inline-list"><a href="/" class="link" >social one</a></li>
+            <li class= "unordered-list inline-list"><a href="/" class="link">socialtwo</a></li>
+            <li class= "unordered-list inline-list"><a href="/" class="link">socialthree</a></li>
         </ul>
+    </div>
     </footer>
 </body>
+
 </html>

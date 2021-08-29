@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&family=Libre+Baskerville&display=swap');
+:root{
+    --primary-color:#34D399;
+    --secondry-color:#D1FAE5;
+    --font-type:  'Libre Baskerville', serif;
+    --font-color:#A78BFA;
+}
+body{
+    font-family: var(--font-type);
+    /* background-color: var(--primary-color); */
+    margin: 0%;
+}
+hr{
+    margin:2rem 0 ;
+}
+.typography{
+    padding-bottom: 1.2rem;
+}
+.typo-para{
+    padding-bottom: 1.2rem;
+}
+.fluid-para{
+    padding-bottom: 1.4rem;
+}
+.link{
+    text-decoration: none;
+    padding:0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+.primary-link{
+    color: white;
+    background-color: var(--primary-color);
+    width: max-content;
+}
+.secondary-link{
+    color:var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+.unordered-list{
+    list-style: none;
+}
+.inline-list{
+    display: inline;
+    padding: 0.5rem 1rem 0.5rem 1.5rem;
+}
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.nav-content{
+    padding-bottom: 1.4rem;
+}
+.navigation .link{
+    color: white;
+}
+.align-text{
+    text-align: right;
+}
+.hero-image{
+    max-width: 700px;
+    margin: auto;
+    display: block;
+}
+.hero-head{
+    text-align: center;
+    color:var(--font-color) ;
+}
+.text{
+    padding-bottom: 1.4rem;
+}
+.normal-section-heading{
+    text-align: center;
+}
+.oc-head{
+    padding-top: 1.4rem;
+}
+.oc-body{
+    background-color: var(--secondry-color);
+    padding: 2rem;
+}
+.footer{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.footer .link{
+    color:white;
+}
